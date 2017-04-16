@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.southeastmn.gagerhyner.grhyner3a.Ex3AMainActivity"
+    tools:showIn="@layout/activity_ex3_amain">
+
+    <RelativeLayout
+        android:layout_width="402dp"
+        android:layout_height="564dp"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="-55dp">
+
+        <EditText
+            android:id="@+id/loopResultEditText"
+            android:layout_width="325dp"
+            android:layout_height="247dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="140dp"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/forButton"
+            android:layout_alignRight="@+id/loopMaxEditText"
+            android:layout_alignEnd="@+id/loopMaxEditText" />
+
+        <Button
+            android:id="@+id/forButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forButtonCaption"
+            tools:layout_editor_absoluteX="265dp"
+            tools:layout_editor_absoluteY="82dp"
+            android:layout_alignBaseline="@+id/doWhileButton"
+            android:layout_alignBottom="@+id/doWhileButton"
+            android:layout_alignRight="@+id/loopMaxEditText"
+            android:layout_alignEnd="@+id/loopMaxEditText"
+            android:layout_marginRight="11dp"
+            android:layout_marginEnd="11dp" />
+
+        <Button
+            android:id="@+id/doWhileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doWhileButtonCaption"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="82dp"
+            android:layout_alignBaseline="@+id/whileButton"
+            android:layout_alignBottom="@+id/whileButton"
+            android:layout_toLeftOf="@+id/forButton"
+            android:layout_toStartOf="@+id/forButton"
+            android:layout_marginRight="22dp"
+            android:layout_marginEnd="22dp" />
+
+        <Button
+            android:id="@+id/whileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/whileButtonCaption"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="82dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/loopMaxEditText"
+            android:layout_alignLeft="@+id/loopMaxEditText"
+            android:layout_alignStart="@+id/loopMaxEditText" />
+
+        <EditText
+            android:id="@+id/loopMaxEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="27sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_marginTop="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

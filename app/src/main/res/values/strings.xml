@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GRhyner3A</string>
+    <string name="action_settings">Settings</string>
+    <string name="whileButtonCaption">While</string>
+    <string name="doWhileButtonCaption">Do While</string>
+    <string name="forButtonCaption">For</string>
+</resources>
